@@ -1,0 +1,83 @@
+/* Set ALL HTML elements with border-box sizing */
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+	margin: auto;
+}
+
+header {
+	height: 135px;
+	color: lightgray;
+}
+
+main {
+	background-color: gray;
+}
+
+footer {
+	color: white;
+}
+
+header, footer {
+	background-color: darkbrown;
+}
+
+/* Page Heading */
+h1 {
+	font-family: 'open sans', serif;
+	font-size: 72px;
+	padding: 15px 0 0 0;
+}
+
+/* Intro Heading */
+h2 {
+	font-family: 'playfair display', fantasy, serif;
+}
+
+h3 {
+	font-family: 'league spartan', cursive, serif;
+}
+
+header, h2, h3, footer {
+	text-align: center
+}
+
+/* Page Heading Subtitle */
+header p {
+	font-family: 'roboto slab', sans-serif;
+	font-size: 18px;
+}
+
+/* Main body text */
+body p {
+	font-family: 'ltc bodoni 175', sans-serif;
+}
+
+/* Footnote copyright text */
+footer p {
+	font-family: monospace, sans-serif;
+}
+
+article {
+	margin: 75px 0;
+}
+
+/* Dynamic Links */
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: purple;
+}
+
+/* Link becomes underlined when hovered over */
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: lightblue;
+}
