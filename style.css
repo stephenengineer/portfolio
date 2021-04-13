@@ -7,9 +7,14 @@
 	margin: auto;
 }
 
+/* Eliminate white space at the top */
+html {
+  margin-top: 0;
+}
+
 header {
-	height: 135px;
 	color: lightgray;
+  padding: 1px 0 10px 0;
 }
 
 main {
@@ -18,17 +23,17 @@ main {
 
 footer {
 	color: white;
+  height: 50px;
 }
 
 header, footer {
-	background-color: darkbrown;
+	background-color: darkslategray;
 }
 
 /* Page Heading */
 h1 {
 	font-family: 'open sans', serif;
 	font-size: 72px;
-	padding: 15px 0 0 0;
 }
 
 /* Intro Heading */
@@ -40,7 +45,7 @@ h3 {
 	font-family: 'league spartan', cursive, serif;
 }
 
-header, h2, h3, footer {
+header, h2, h3, footer, img {
 	text-align: center
 }
 
@@ -58,13 +63,26 @@ body p {
 /* Footnote copyright text */
 footer p {
 	font-family: monospace, sans-serif;
+  padding: 0;
 }
 
 article {
 	margin: 75px 0;
 }
 
+/* Size down pictures */
+img {
+	display: block;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Dynamic Links */
+a {
+	text-decoration: none;
+}
+
 a:link {
 	color: blue;
 }
