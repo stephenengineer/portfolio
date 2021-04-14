@@ -18,12 +18,15 @@ header {
 }
 
 main {
-	background-color: gray;
+	background-color: lightgray;
 }
 
 footer {
 	color: white;
 	height: 50px;
+	/* To center the footer paragraph */
+	display: table;
+	width: 100%;
 }
 
 header, footer {
@@ -32,13 +35,13 @@ header, footer {
 
 /* Page Heading */
 h1 {
-	font-family: 'open sans', serif;
+	font-family: 'open sans', fantasy, serif;
 	font-size: 72px;
 }
 
 /* Intro Heading */
 h2 {
-	font-family: 'playfair display', fantasy, serif;
+	font-family: 'playfair display', serif;
 }
 
 h3 {
@@ -63,11 +66,17 @@ body p {
 /* Footnote copyright text */
 footer p {
 	font-family: monospace, sans-serif;
-	padding: 0;
+	height: 50px;
+	/* To vertically align the footer in the middle */
+	display: table-cell;
+	vertical-align: middle;
 }
 
 article {
+	/* Space between articles */
 	margin: 75px 0;
+	/* Bring in everything from the edges */
+	padding: 0 25%;
 }
 
 /* Size down pictures */
@@ -80,6 +89,7 @@ img {
 
 /* Dynamic Links */
 a {
+	font-family: tisa, helvetica, arial, sans-serif;
 	text-decoration: none;
 }
 
