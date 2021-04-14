@@ -1,6 +1,6 @@
 /* Set ALL HTML elements with border-box sizing */
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .wrapper {
@@ -9,12 +9,12 @@
 
 /* Eliminate white space at the top */
 html {
-  margin-top: 0;
+	margin-top: 0;
 }
 
 header {
 	color: lightgray;
-  padding: 1px 0 10px 0;
+	padding: 1px 0 10px 0;
 }
 
 main {
@@ -23,7 +23,7 @@ main {
 
 footer {
 	color: white;
-  height: 50px;
+	height: 50px;
 }
 
 header, footer {
@@ -63,7 +63,7 @@ body p {
 /* Footnote copyright text */
 footer p {
 	font-family: monospace, sans-serif;
-  padding: 0;
+	padding: 0;
 }
 
 article {
