@@ -3,7 +3,7 @@ Web Portfolio
 
 ## About Me
 
-* [Personal Portfolio](coming soon)
+* [Personal Portfolio](https://stephenengineer.github.io/portfolio/)
 * [GitHub Profile](https://github.com/stephenengineer)
 * [Twitter](https://twitter.com/StephenTchaou)
 
