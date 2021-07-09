@@ -1,5 +1,11 @@
 # Portfolio
-Web Portfolio
+Learn all about me in my web portfolio!
+
+## Technology
+
+### Built with:
+* HTML
+* CSS
 
 ## About Me
 
